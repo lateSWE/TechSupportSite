@@ -145,7 +145,7 @@ main{
 
 .main-img-div{
 	margin-bottom: 0px;
-	width: 100%;
+	width: 90%;
 	height: 90%;
 
 	display: flex;
@@ -163,5 +163,21 @@ main{
 /**/
 footer{
 	background-color: #202020;
-	height: 300px;
+
+	display: flex;
+}
+
+
+
+.footer-socialmedia{
+	padding: 25px;
+	width: 25%;
+	background-color: #202020;
+	
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: 
+}
+.footer-socialmedia img{
+	max-width: 75px;
 }
