@@ -13,7 +13,7 @@ img{
 }
 .menu-logo img{
 	float: left;
-	margin: 10px 0px 0px 14px;
+	margin: 20px 0px 0px 14px;
 }
 
 .left-menu{
@@ -35,18 +35,18 @@ img{
 }
 
 nav {
-  overflow: hidden;
-  background-color: #222;
-  font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	background-color: #222;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 nav a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 nav p {
@@ -57,50 +57,50 @@ nav p {
 }
 
 .dropdown {
-  float: left;
-  overflow: hidden;
+	float: left;
+	overflow: hidden;
 }
 
 .dropdown .dropbtn {
-  cursor: pointer;
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+	cursor: pointer;
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
 }
 
 nav a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: #404040;
+	background-color: #404040;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
 }
 
 .dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+	background-color: #ddd;
 }
 
 .show {
-  display: block;
+	display: block;
 }
 
 /**/
@@ -163,8 +163,11 @@ main{
 /**/
 footer{
 	background-color: #202020;
+	width: 100%;
 
-	display: flex;
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 
@@ -176,8 +179,29 @@ footer{
 	
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: 
+	flex-direction: row;
 }
 .footer-socialmedia img{
-	max-width: 75px;
+	width: 90%;
+	margin: 10px;
+}
+.footer-socialmedia a{
+	align-self: center;
+}
+
+.footer-location{
+	width: 25%;
+
+	float: right;
+	align-self: center;
+}
+.footer-location a,.footer-location p{
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+
+	color: white;
+	text-align: left;
+	text-overflow: hide;
+	font-size: 16px;
+	padding: 5px 0px;
 }
