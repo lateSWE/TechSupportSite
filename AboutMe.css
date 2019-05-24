@@ -166,39 +166,32 @@ main a {
 }
 main p {
 	color: black;
-	text-align: center;
 	font-size: 16px;
 }
 
 .mainContent{
 	padding: 25px 0px 100px 0px;
-	width: 60%;
+	width: 50%;
 	background-color: #555;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	columns: 2;
 	flex-wrap: wrap;
 }
 
-.main-content-div{
-	width: 400px;
-	height: 450px;
+.mainContent-about-me{
+	width: 75%;
+	height: 800px;
 	margin: 25px;
 	background-color: #888;
 
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
-}
-
-.main-img-div{
-	width: 90%;
-	height: 90%;
-
-	display: flex;
+    align-content: center;
 	justify-content: center;
+}
+.mainContent-about-me p{
 }
 /**/
 /*Main CSS ends here*/
